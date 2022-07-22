@@ -19,6 +19,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:queryHint="@string/search_hint" />
 
+    <!--  TODO boleh ditambah info jika search kosong  -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rv_search"
         android:layout_width="match_parent"

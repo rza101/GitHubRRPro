@@ -42,6 +42,7 @@ public class UserDetailActivity extends AppCompatActivity {
         }
 
         if (getSupportActionBar() != null) {
+            // TODO sebaiknya pakai StringBuilder
             getSupportActionBar().setTitle("@" + userDetail.getLogin());
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);

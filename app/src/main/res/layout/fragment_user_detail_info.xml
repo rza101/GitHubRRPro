@@ -126,6 +126,7 @@
                 app:barrierDirection="bottom"
                 app:constraint_referenced_ids="fragment_user_detail_info_tv_repositories, fragment_user_detail_info_tv_followers, fragment_user_detail_info_tv_followings" />
 
+            <!-- TODO bisa saja tanpa nested... -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/fragment_user_detail_info_cl_email"
                 android:layout_width="match_parent"

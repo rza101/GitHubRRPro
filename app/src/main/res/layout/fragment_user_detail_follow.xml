@@ -7,6 +7,8 @@
     android:padding="@dimen/root_padding"
     tools:context=".fragments.UserDetailFollowFragment">
 
+    <!--  TODO boleh ditambah info jika tdk ada followings atau followers  -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fragment_user_detail_follow_rv"
         android:layout_width="match_parent"

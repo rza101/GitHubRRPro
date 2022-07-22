@@ -7,6 +7,7 @@
     android:padding="@dimen/root_padding"
     tools:context=".activities.SplashActivity">
 
+    <!--    TODO setiap imageview boleh ditambah contentDescription-->
     <ImageView
         android:id="@+id/splash_iv_icon"
         android:layout_width="0dp"

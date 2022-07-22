@@ -15,6 +15,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainViewModel extends ViewModel {
+    // TODO boleh di declare final jika hanys sekali assign
     private MutableLiveData<SearchResponse> searchResponse = new MutableLiveData<>();
     private MutableLiveData<Boolean> isLoading = new MutableLiveData<>();
     private MutableLiveData<SingleEvent<String>> error = new MutableLiveData<>();

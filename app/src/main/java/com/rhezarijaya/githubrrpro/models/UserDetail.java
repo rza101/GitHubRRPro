@@ -8,6 +8,7 @@ import androidx.annotation.NonNull;
 import com.google.gson.annotations.SerializedName;
 
 public class UserDetail implements Parcelable{
+	// TODO field yg tdk dipakai boleh dihapus, bisa dgn bantuan Analyze - Code Cleanup
 
 	@SerializedName("gists_url")
 	private String gistsUrl;

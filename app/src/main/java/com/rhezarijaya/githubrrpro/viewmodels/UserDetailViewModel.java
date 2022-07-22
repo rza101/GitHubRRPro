@@ -26,6 +26,7 @@ public class UserDetailViewModel extends ViewModel {
     private final MutableLiveData<Boolean> isFollowersLoading = new MutableLiveData<>();
     private final MutableLiveData<Boolean> isFollowingsLoading = new MutableLiveData<>();
 
+    // TODO untuk error sebaiknya lebih general tidak hanya log error saja...
     private final MutableLiveData<SingleEvent<String>> userDetailsError = new MutableLiveData<>();
     private final MutableLiveData<SingleEvent<String>> followersError = new MutableLiveData<>();
     private final MutableLiveData<SingleEvent<String>> followingsError = new MutableLiveData<>();

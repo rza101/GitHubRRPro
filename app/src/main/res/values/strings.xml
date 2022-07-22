@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHubRR Pro</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Masukkan Username</string>
+    <string name="followings">Followings</string>
+    <string name="followers">Followers</string>
+    <string name="repositories">Repositories</string>
+</resources>
